@@ -1,0 +1,34 @@
+.navmain{
+    /* background-color: antiquewhite; */
+   width: 20%;
+}
+
+.nav1{
+    background-color: rgb(94, 94, 83);
+    width: 200%;
+    height: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+.nav2{
+    /* background-color: rgb(215, 250, 227); */
+    width: 250%;
+    margin-top: 0;
+    border: 1px black solid;
+    padding-left: 18px;
+    display: none;
+}
+.menu{
+    margin-left: -20px;
+
+}
+li{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navmain:hover .nav2{
+    display: block;
+}
